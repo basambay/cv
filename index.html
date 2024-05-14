@@ -1,100 +1,124 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <title>Hebert's Personal Site</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV - Hebert</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 20px;
+      background-color: #f4f4f4;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: auto;
+      background: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    h1, h2, h3 {
+      border-bottom: 2px solid #ddd;
+      padding-bottom: 10px;
+    }
+
+    .profile, .education, .experience, .skills, .contact {
+      margin-bottom: 20px;
+    }
+
+    .profile img {
+      float: left;
+      margin-right: 20px;
+      border-radius: 50%;
+    }
+
+    .contact a {
+      color: #000;
+      text-decoration: none;
+    }
+
+    .contact a:hover {
+      text-decoration: underline;
+    }
+
+    .skills ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .skills ul li {
+      background: #eee;
+      margin: 5px 0;
+      padding: 10px;
+      border-radius: 5px;
+    }
+  </style>
 </head>
 
 <body>
-  <table cellspacing="20" >
-    <tr>
-      <td>
-        <img src="images/hebert3.png" alt="hebert profile picture"/>
-      </td>
-      <td>
-        <h1>Hebert</h1>
-        <p><em>Information Systems' Student at <strong><a href="https://www.buddhidharma.ac.id/">Buddhi Dharma University</a></strong></em></p>
-        <p>I am in a journey to build my own website. Honestly, I love tea and read bible</p>
-      </td>
-    </tr>
-  </table>
-  <hr />
-  <h3>Education</h3>
-  <ul>
-    <li>
-      Private Primary School Harapan Bunda
-    </li>
-    <li>
-      Private Primary School Bina Kusuma
-    </li>
-    <li>
-      <a href="http://bhaktinusa.sdstrada.sch.id/">Private Primary School Strada Bhakti Nusa</a>
-    </li>
-    <li>
-      <a href="https://www.smpn5kotatangsel.sch.id/">Public JHS 5 South Tangerang</a>
-    </li>
-    <li>
-      <a href="https://sman1kotatangsel.sch.id/web/">Public SHS 1 South Tangerang</a>
-    </li>
-    <li>
-      <a href="https://www.buddhidharma.ac.id/">Buddhi Dharma University</a>
-    </li>
-  </ul>
-  <hr />
-  <h3>Work Experience</h3>
-  <table cellspacing="10">
-    <thead>
-      <tr>
-        <th>Dates</th>
-        <th>Work</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>2019-2020</td>
-        <td>Property Consultant at TransProperty</td>
-      </tr>
-    </tbody>
-  </table>
-  <hr />
-  <h3>Skills</h3>
-  <table cellspacing="10">
-    <tr>
-      <td>
-        HTML
-      </td>
-      <td>
-        ⭐⭐⭐⭐⭐
-      </td>
-    </tr>
-    <tr>
-      <td>
-        CSS
-      </td>
-      <td>
-        ⭐⭐⭐⭐
-      </td>
-    </tr>
-    <tr>
-      <td>
-        Photography
-      </td>
-      <td>
-        ⭐⭐
-      </td>
-    </tr>
-    <tr>
-      <td>
-        Sales
-      </td>
-      <td>
-        ⭐⭐⭐⭐
-      </td>
-    </tr>
-  </table>
-  <hr />
-  <a href="hobbies.html">My Hobbies</a>
+  <div class="container">
+    <div class="profile">
+      <img src="images/hebert3.png" alt="Hebert profile picture" width="150" height="150"/>
+      <h1>Hebert</h1>
+      <p><strong>Information Systems' Student at Buddhi Dharma University</strong></p>
+      <p>I am in a journey to build my own website. Honestly, I love tea and read bible.</p>
+<a href="hobbies.html">My Hobbies</a>
   <a href="contact-me.html">Contact Me</a>
+    </div>
+
+    <div class="contact">
+      <h2>Contact Information</h2>
+      <p>Email: <a href="mailto:wensonboy2500@gmail.com">Email Hebert</a></p>
+      <p>Phone: +6282258177717</p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/hebert-lou-wenson-789035181/" target="_blank">LinkedIn Hebert</a></p>
+      <p>Website: <a href="https://basambay.github.io/cv/" target="_blank">Website ku</a></p>
+    </div>
+
+    <div class="education">
+      <h2>Education</h2>
+      <h3>Private Primary School Harapan Bunda</h3>
+      <p><em>Primary Education</em></p>
+      <h3>Private Primary School Bina Kusuma</h3>
+      <p><em>Primary Education</em></p>
+      <h3><a href="http://bhaktinusa.sdstrada.sch.id/">Private Primary School Strada Bhakti Nusa</a></h3>
+      <p><em>Primary Education</em></p>
+      <h3><a href="https://www.smpn5kotatangsel.sch.id/">Public JHS 5 South Tangerang</a></h3>
+      <p><em>Junior High School Diploma</em></p>
+      <h3><a href="https://sman1kotatangsel.sch.id/web/">Public SHS 1 South Tangerang</a></h3>
+      <p><em>High School Diploma</em></p>
+      <h3><a href="https://www.buddhidharma.ac.id/">Buddhi Dharma University</a></h3>
+      <p><em>Bachelor of Information Systems, 2021 - Present</em></p>
+    </div>
+
+    <div class="experience">
+      <h2>Work Experience</h2>
+      <h3>Property Consultant at Transproperty (PT. Alfa Retailindo)</h3>
+      <p><em>2019 - 2020</em></p>
+      <p>Worked as a property consultant, assisting clients in buying dan sellin properties.</p>
+      <h3>Student Intern at Dartmedia (PT. Dian Prima Jayaraya)</h3>
+      <p><em>2023</em></p>
+      <p>Worked as a student intern, contributing to various projects and gaining hands-on experience in the field.</p>
+    </div>
+
+    <div class="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li>HTML - ⭐⭐⭐⭐⭐</li>
+        <li>CSS - ⭐⭐⭐⭐</li>
+        <li>Communication - ⭐⭐⭐⭐</li>
+        <li>English - ⭐⭐⭐⭐</li>
+        <li>Sales - ⭐⭐⭐⭐</li>
+        <li>Flutter - ⭐⭐⭐⭐</li>
+        <li>Dart - ⭐⭐⭐⭐</li>
+      </ul>
+    </div>
+  </div>
 </body>
+
 </html>
